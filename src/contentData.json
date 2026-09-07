@@ -1,0 +1,305 @@
+{
+  "homepage": {
+    "title": "StartUp 101",
+    "supporting": "Nobody hands you a manual for this job. So we made one.",
+    "entryAction": "Start",
+    "microcopy": ""
+  },
+  "intro": {
+    "body": [
+      "You're working in a startup now.",
+      "That means a few things nobody's going to sit you down and explain, so we will.",
+      "Things move fast, and instructions won't always be perfect. Sometimes the person asking you for something is also still figuring it out. Priorities that felt fixed on Monday can be gone by Wednesday.",
+      "Nobody expects you to already know everything. But people will expect you to think — to notice what's off, ask when you're unsure, and take ownership of things nobody explicitly assigned to you.",
+      "That's not a personality trait. It's a set of habits. And like any habits, you can build them — mostly by knowing what they look like before you're standing in the middle of them.",
+      "So here's what we're going to do: we're going to walk you through 25 moments that are going to happen to you at work — probably sooner than you think. For each one, we'll show you what your instinct will probably tell you to do, and what a more experienced person would do instead."
+    ],
+    "transitionToMoment1": "Let's start with one that happens to literally everyone, usually in their first week."
+  },
+  "moments": [
+    {
+      "number": 1,
+      "behavior": "Asking Questions",
+      "situation": "You don't understand an instruction.",
+      "card1": "There will be a time when someone gives you an instruction, and you don't fully understand it. Your instinct will be to nod, say ‘got it,’ and go figure it out on your own so you don’t look like you weren’t paying attention.\n\nDon’t.\n\nAsk the question.",
+      "card2": "Asking questions isn’t a sign you’re behind — it’s a sign you’re paying attention to the right thing: getting this right the first time. The fastest people in a startup aren’t the ones who never ask. They’re the ones who ask early, before they’ve built the wrong thing.",
+      "card3": "Your manager says, ‘Can you get me the numbers for the board deck?’ You could guess which numbers, for which period, in which format — and spend two hours guessing. Or you could ask: ‘Quick check — do you mean this month’s revenue by channel, or the full quarter?’ Thirty seconds now saves two wasted hours later.",
+      "card4": "When people don’t ask, they build the wrong thing confidently. Someone has to notice it’s wrong, explain what was actually needed, and wait for it to be redone. What could’ve been a thirty-second question becomes a half-day of rework — and a manager who now double-checks everything you hand them.",
+      "founder": "Nobody has ever fired someone for asking a clarifying question. Plenty of people have lost trust for confidently doing the wrong thing.",
+      "transition": "Asking questions gets you the right instructions. But what happens when there’s no instruction at all — when you’re just being asked to figure something out you’ve never done before?"
+    },
+    {
+      "number": 2,
+      "behavior": "Curiosity",
+      "situation": "You've never done this before.",
+      "card1": "There will be a time when you’re asked to do something you’ve genuinely never done before. Your instinct might be to freeze, or to quietly hope someone notices and reassigns it.\n\nDon’t.\n\nGet curious.",
+      "card2": "Curiosity is what you do in the gap between ‘I don’t know this’ and ‘I need to know this.’ It means treating not-knowing as a starting point, not a dead end — Googling it, watching a video, asking someone who’s done it, taking the first small step before you feel ready.",
+      "card3": "You’re asked to set up a basic dashboard in a tool you’ve never opened. You could wait for someone to walk you through it. Or you could spend twenty minutes in the tool, watch one tutorial, and show up to the next conversation already halfway there — with real questions instead of ‘I don’t know where to start.’",
+      "card4": "When curiosity is missing, people wait. They wait for training that may never come, for someone with more time than they have, for permission to try. Meanwhile the task sits untouched, and the person who was counting on it starts wondering if they gave it to the wrong person.",
+      "founder": "Nobody expects you to already know everything. Startups run on people who are willing to not-know something at 9am and know it by 11.",
+      "transition": "Curiosity gets you started. Resourcefulness is what happens next — when curiosity actually turns into an answer."
+    },
+    {
+      "number": 3,
+      "behavior": "Resourcefulness",
+      "situation": "You've found the answer yourself.",
+      "card1": "There will be a time when you go looking for an answer — searching, testing, piecing it together — and you actually find it. Your instinct might be to still ask someone to double-check it before you trust yourself.\n\nSometimes that’s right. Often, it isn’t necessary.\n\nUse what you found.",
+      "card2": "Resourcefulness means treating ‘I don’t know’ as temporary. It’s the muscle of finding things out instead of waiting to be handed them — old Slack threads, docs, half-finished spreadsheets, a five-minute search. It’s not about knowing everything. It’s about not stopping at not-knowing.",
+      "card3": "You need a number for a report and nobody’s around to ask. Instead of blocking on it, you check the last three reports, find the same figure was pulled from a specific dashboard, and pull it yourself. You note in your update: ‘Pulled this from the usual dashboard, same method as last month.’ Done.",
+      "card4": "When people default to waiting instead of digging, small unknowns become full stops. A single missing number can block an entire report. Someone eventually has to notice the delay, ask what’s holding it up, and realize the answer was one search away the whole time.",
+      "founder": "The answer being findable and the answer being handed to you are two different things. Get comfortable with the first one.",
+      "transition": "Once you’ve learned to find your own answers, the next question is bigger: do you wait for someone to tell you what to do next, or do you decide for yourself?"
+    },
+    {
+      "number": 4,
+      "behavior": "Agency",
+      "situation": "You're waiting for someone to tell you what to do.",
+      "card1": "There will be a time when you finish what you were asked to do, and nobody has told you what’s next. Your instinct might be to sit and wait — it’s not your job to decide, right?\n\nDon’t wait.\n\nLook around and act.",
+      "card2": "Agency is deciding what to do without being told, based on what you can see needs doing. It doesn’t mean acting without judgment — it means not treating ‘nobody told me’ as a valid reason to do nothing.",
+      "card3": "You finish the task you were assigned an hour early. Instead of waiting for your manager to notice and assign the next thing, you check what’s on the team’s plate, pick something reasonable, and start — then say, ‘Finished early, so I started on X — let me know if you’d rather I switch.’",
+      "card4": "When agency is missing, capable people sit idle waiting for permission that was never required, while their manager — already stretched — has to remember to keep feeding them work. Momentum slows down for no real reason.",
+      "founder": "You don’t need a manager standing over you telling you what to do next. You need eyes, and the willingness to use them.",
+      "transition": "Agency means acting on what you can see. But sometimes you see something nobody assigned you to notice at all."
+    },
+    {
+      "number": 5,
+      "behavior": "Initiative",
+      "situation": "You notice a problem nobody mentioned.",
+      "card1": "There will be a time when you notice something’s wrong — a bug, a broken link, a number that doesn’t add up — and it’s not officially your job to notice it. Your instinct might be to assume someone else already knows.\n\nDon’t assume.\n\nSay something.",
+      "card2": "Initiative means acting on what you notice, even outside your lane. It’s the difference between ‘that’s not my job’ and ‘someone should know about this’ — and you being the someone who says it.",
+      "card3": "You’re scrolling through the website and spot that the pricing page still shows last quarter’s numbers. It’s not your project. You could scroll past. Instead, you send a one-line message: ‘Heads up — pricing page still shows old numbers, flagging in case nobody’s seen it.’",
+      "card4": "When initiative is missing, small problems sit in plain sight — seen by several people, fixed by none, because everyone assumed it was someone else’s to catch. A customer eventually finds it before the team does.",
+      "founder": "‘Not my job’ has cost more startups money than almost any single bug ever has.",
+      "transition": "Noticing a problem is one thing. What happens when the problem — or the promise — is actually yours?"
+    },
+    {
+      "number": 6,
+      "behavior": "Ownership",
+      "situation": "You promised something.",
+      "card1": "There will be a time when you tell someone, ‘I’ll have this to you by Friday.’ Then Friday gets busy. Your instinct might be to quietly let it slip and explain later if anyone asks.\n\nDon’t.\n\nProtect the promise — or say something before Friday arrives.",
+      "card2": "Ownership means a promise is a commitment, not a hope. It means the thing you said you’d do stays your responsibility until it’s actually done — not until it becomes inconvenient.",
+      "card3": "You told a colleague you’d send them the client brief by end of day. Your afternoon fills up with a fire drill. Ownership looks like messaging them at 4pm: ‘Still on for the brief, but it’ll be closer to 6 with everything going on today — that work?’ — not staying silent and hoping they don’t notice.",
+      "card4": "When ownership is missing, other people’s plans quietly break. The colleague waited all day assuming it was coming. Now they’re scrambling too — and next time, they build in extra buffer, because they’ve learned not to fully trust your word.",
+      "founder": "Your word is basically the only currency you have when you’re new. Spend it carefully.",
+      "transition": "Ownership means protecting your promises. But sometimes protecting them means telling someone, early, that you might not make it."
+    },
+    {
+      "number": 7,
+      "behavior": "Giving Updates",
+      "situation": "You can't meet the deadline.",
+      "card1": "There will be a time when you realize you can’t meet a deadline. Your instinct will be to work quietly and hope you catch up before anyone notices.\n\nDon’t.\n\nGive an update.",
+      "card2": "Giving updates means telling people the truth about timing before they have to ask. In a startup, late information is often worse than late work — because it takes away everyone else’s ability to plan around you.",
+      "card3": "You were supposed to send a report by 3pm. At 1:30, you realize the data’s incomplete. Instead of disappearing into the problem, you send: ‘Quick update — missing the customer data for the final section. I can send the rest by 3, full report will likely land by 4. Checking with Finance now.’",
+      "card4": "When updates don’t come, people find out about delays the hard way — usually right when they needed the thing. Managers can’t plan, teammates can’t adjust, and a small, explainable delay turns into a surprise nobody had time to absorb.",
+      "founder": "Silence is information too — it just usually tells people the wrong thing.",
+      "transition": "Giving an update covers work in progress. What about work you’ve already finished?"
+    },
+    {
+      "number": 8,
+      "behavior": "Closing the Loop",
+      "situation": "You've finished the task.",
+      "card1": "There will be a time when you finish something someone asked for. Your instinct might be to just move on — it’s done, they’ll see it eventually.\n\nDon’t leave it hanging.\n\nClose the loop.",
+      "card2": "Closing the loop means confirming completion out loud, not assuming it’s obvious. It’s a short message that turns ‘is this done?’ into something nobody ever has to ask.",
+      "card3": "You finish updating the onboarding doc your manager asked for last week. Instead of letting it sit in the shared folder, you send: ‘Updated the onboarding doc — added the new tool walkthrough, ready for review.’ Now it’s off both your plates.",
+      "card4": "When loops don’t close, people either forget the task was ever finished, or start following up to check — pulling both of you into a conversation a ten-second message would’ve prevented. Worse, sometimes work gets redone because nobody realized it was already done.",
+      "founder": "‘Done’ that lives only in your head doesn’t count yet. Say it out loud.",
+      "transition": "You now know how to handle one task well, start to finish. The next challenge is handling six of them at once."
+    },
+    {
+      "number": 9,
+      "behavior": "Prioritization",
+      "situation": "Everything feels urgent.",
+      "card1": "There will be a time when everything on your list feels urgent at the same time. Your instinct might be to try to do all of it, a little at a time, and hope it works out.\n\nDon’t.\n\nDecide what actually matters most — and say so.",
+      "card2": "Prioritization means deciding what gets your attention first, based on real impact — not on what arrived last, or what’s loudest. It’s an active decision, not something that happens to you.",
+      "card3": "You have six things marked ‘urgent’ and your manager just sent a seventh. Instead of quietly trying to juggle all seven, you message: ‘I’ve got seven things flagged urgent right now — can you help me sequence these, or should I default to the customer bug first?’ You’re not stuck, you’re making the tradeoff visible.",
+      "card4": "When everything gets equal attention, nothing gets real attention. The task that actually mattered most gets the same rushed thirty minutes as the one that didn’t matter at all — and usually, it’s the important one that suffers, because it needed more than thirty minutes.",
+      "founder": "Busy and productive are not the same thing. Most people confuse them until someone points out the difference.",
+      "transition": "Prioritizing your own list is one skill. Reacting when something truly can’t wait is another."
+    },
+    {
+      "number": 10,
+      "behavior": "Urgency",
+      "situation": "A customer issue appears suddenly.",
+      "card1": "There will be a time when a customer issue lands in your lap out of nowhere, mid-task. Your instinct might be to finish what you’re doing first, then get to it.\n\nDon’t.\n\nSome things genuinely can’t wait — learn to recognize which ones.",
+      "card2": "Urgency means correctly reading when something needs to jump the queue — and actually letting it. Not everything marked ‘urgent’ truly is, and not everything urgent gets labeled that way. This is judgment, not panic.",
+      "card3": "You’re deep in a task when a message comes in: a paying customer’s account is locked and they’re mid-demo with their own client. You pause what you’re doing, fix the lock, confirm with the customer, then go back to your original task. The original task waited twenty minutes. The customer didn’t have to.",
+      "card4": "When urgency isn’t recognized, small customer problems sit in a queue behind internal work that could’ve waited. The customer escalates, frustrated, and now what was a five-minute fix becomes a trust problem — plus an apology that takes longer than the fix would have.",
+      "founder": "You can always go back to your spreadsheet. You can’t always go back to a customer’s trust.",
+      "transition": "Sometimes urgency isn’t something you can handle alone. That’s when it’s time to ask for help."
+    },
+    {
+      "number": 11,
+      "behavior": "Escalation",
+      "situation": "You're stuck and can't solve it.",
+      "card1": "There will be a time when you’re genuinely stuck — you’ve tried, and you still can’t solve it. Your instinct will be to keep trying quietly, because asking for help feels like admitting you can’t do your job.\n\nDon’t.\n\nEscalate.",
+      "card2": "Escalation means raising a problem before it grows, not after. It’s not giving up — it’s recognizing that some problems need more than one person’s time, and holding onto it alone just delays the moment someone finds out.",
+      "card3": "You’ve spent two hours trying to fix a bug you don’t fully understand. Instead of a third silent hour, you message a senior teammate: ‘Stuck on this bug — tried X and Y, no luck. Can I grab 10 minutes, or should I keep at it a bit longer?’ You’re back on track in fifteen minutes instead of losing the afternoon.",
+      "card4": "When escalation doesn’t happen, one stuck person quietly burns hours that a five-minute conversation could’ve saved — and the person who could’ve helped never even knew there was a problem to solve.",
+      "founder": "Asking for help isn’t the failure. Staying stuck and silent is.",
+      "transition": "Sometimes the help you need isn’t from your manager — it’s from a completely different team."
+    },
+    {
+      "number": 12,
+      "behavior": "Collaboration",
+      "situation": "You need another team to help.",
+      "card1": "There will be a time when your work depends on another team — and getting their help feels like an extra hassle you’d rather avoid. Your instinct might be to work around them instead.\n\nDon’t.\n\nAsk directly, and make it easy for them to say yes.",
+      "card2": "Collaboration means treating other teams as partners in getting something done, not obstacles between you and the finish line. It’s asking clearly, with context, instead of assuming you’ll figure it out alone or hoping they’ll just notice you need them.",
+      "card3": "You need design’s help to finish a landing page. Instead of quietly building a rough version yourself and hoping it’s good enough, you message: ‘Working on the new landing page, need a hero image by Thursday — here’s the brief and reference examples. Does that timeline work?’ Now they can actually plan for it.",
+      "card4": "When people avoid collaboration, they end up duplicating work another team could’ve done better and faster, or shipping something weaker than it needed to be — and the team that could’ve helped never even knew they were needed.",
+      "founder": "You’re not bothering people by asking for help. You’re bothering them if you don’t, and they find out later that you needed it.",
+      "transition": "Collaboration works when everyone’s on the same page. But what happens when two people think they’re already aligned — and they’re not?"
+    },
+    {
+      "number": 13,
+      "behavior": "Alignment",
+      "situation": "Two people have different understandings.",
+      "card1": "There will be a time when you and someone else walk out of the same conversation with two completely different understandings of what was agreed. Your instinct might be to assume your version is the right one.\n\nDon’t assume.\n\nCheck.",
+      "card2": "Alignment means confirming that everyone actually agrees on the same thing — out loud — instead of assuming agreement because a conversation happened. Two people can nod in the same meeting and leave with opposite plans.",
+      "card3": "After a planning call, you’re not totally sure if you or a teammate owns the client follow-up. Instead of assuming it’s theirs and moving on, you send: ‘Just to confirm — I’ve got the follow-up email, you’ve got the deck update, right?’ Thirty seconds. No dropped ball.",
+      "card4": "When alignment isn’t checked, both people proceed confidently in different directions. Something either gets done twice, or doesn’t get done at all — and it’s usually discovered at the worst possible moment, like right before it was due.",
+      "founder": "‘I thought we agreed’ is one of the most expensive sentences in a startup.",
+      "transition": "Alignment keeps work on track. But sometimes the thing you need to align on isn’t a task — it’s about you."
+    },
+    {
+      "number": 14,
+      "behavior": "Feedback",
+      "situation": "Your manager gives feedback.",
+      "card1": "There will be a time when your manager tells you something you did wasn’t quite right. Your instinct might be to explain why, or feel like you’re being told you’re bad at your job.\n\nDon’t get defensive.\n\nListen first.",
+      "card2": "Taking feedback well means treating it as information about the work, not a verdict on you. It doesn’t mean agreeing with everything — it means genuinely hearing it before you respond.",
+      "card3": "Your manager says the client email you sent was too long and buried the ask. Your instinct is to explain you wanted to be thorough. Instead, you say: ‘Got it — I’ll lead with the ask next time and keep it tighter.’ You’ve kept the relationship intact and actually improved.",
+      "card4": "When feedback gets deflected instead of absorbed, managers slowly stop giving it — not because things are perfect, but because it’s not worth the friction. Then the same mistake happens again, and nobody said anything the second time either.",
+      "founder": "The people who grow fastest aren’t the ones who never get feedback. They’re the ones who don’t flinch when they get it.",
+      "transition": "How you handle feedback about yourself matters. So does how you handle conversations about other people."
+    },
+    {
+      "number": 15,
+      "behavior": "Professionalism",
+      "situation": "People are gossiping about a colleague.",
+      "card1": "There will be a time when people around you are gossiping about a colleague — venting, complaining, maybe piling on. Your instinct might be to nod along, or add your own complaint.\n\nDon’t.\n\nStay out of it, or say something.",
+      "card2": "Professionalism here means not participating in conversations that tear people down behind their back. It doesn’t mean pretending everything’s fine — real issues should go to the person, or to someone who can actually help.",
+      "card3": "A few teammates start complaining about a colleague’s work in a group chat. Instead of adding to it, you say: ‘I hear you — might be worth raising it with them directly, or with [manager]?’ You’ve acknowledged the frustration without becoming part of the pile-on.",
+      "card4": "When gossip goes unchecked, trust erodes across the whole team — not just for the person being talked about, but for everyone, because people start wondering what’s said about them when they’re not in the room.",
+      "founder": "How you talk about people who aren’t in the room tells everyone exactly how you’ll talk about them when they aren’t.",
+      "transition": "Handling people well is one kind of maturity. Handling change well is another."
+    },
+    {
+      "number": 16,
+      "behavior": "Adaptability",
+      "situation": "A plan changes halfway through.",
+      "card1": "There will be a time when a plan you’ve already started changes halfway through — a new priority, a customer request, a founder’s change of mind. Your instinct might be to resent the wasted effort.\n\nDon’t dig in.\n\nAdjust.",
+      "card2": "Adaptability means holding onto the goal, not the original plan. Startups change direction often, sometimes for good reasons you don’t see yet. Being able to pivot without losing momentum is a real skill, not a personal defeat.",
+      "card3": "You’ve spent two days building a feature a certain way. Your manager says the approach needs to change based on new customer feedback. Instead of arguing that you already built it the other way, you ask: ‘Got it — what’s different about the new direction so I build the right thing this time?’ and move.",
+      "card4": "When people resist change, momentum stalls twice — once while they push back, and again while they catch up anyway, because the change was happening regardless. Nothing was saved by the resistance except goodwill.",
+      "founder": "The plan was never sacred. The outcome is.",
+      "transition": "Adapting to change is one thing. Operating when there was never a clear plan to begin with is another."
+    },
+    {
+      "number": 17,
+      "behavior": "Managing Ambiguity",
+      "situation": "There is no clear process.",
+      "card1": "There will be a time when you’re given something to do and there’s no clear process for it — because nobody’s done it before. Your instinct might be to wait until someone defines the steps.\n\nDon’t wait.\n\nMake your best call and move.",
+      "card2": "Managing ambiguity means acting with incomplete information instead of stalling until it’s complete. In a startup, waiting for a perfect process often means waiting forever — someone has to make the first attempt.",
+      "card3": "You’re asked to set up the company’s first customer feedback survey. There’s no template, no past example. Instead of waiting for guidance that doesn’t exist yet, you draft a version based on what similar companies do, share it with a note — ‘First pass, open to changes’ — and let the team react to something real instead of nothing.",
+      "card4": "When people wait for clarity that isn’t coming, work simply doesn’t happen. The task sits, the deadline arrives, and everyone’s left further behind than if an imperfect first attempt had existed for people to react to.",
+      "founder": "Nobody has the process for the thing that’s never been done. You’re not behind for not knowing it — you’re ahead if you’re willing to build it.",
+      "transition": "Operating in ambiguity eventually means making an actual call. So — how do you decide?"
+    },
+    {
+      "number": 18,
+      "behavior": "Decision Making",
+      "situation": "You need to make a decision.",
+      "card1": "There will be a time when a decision lands on you and there’s no obviously right answer. Your instinct might be to delay it, or push it back up to someone else.\n\nDon’t avoid it.\n\nMake the call with what you have.",
+      "card2": "Decision making means choosing with the information available, not the information you wish you had. It’s not about being right every time — it’s about being willing to decide instead of freezing or offloading it.",
+      "card3": "You need to pick between two vendors and neither is a perfect fit. Instead of sending your manager a long comparison and waiting, you write: ‘Going with Vendor B — better response time, worse pricing, but speed matters more for us right now. Flag if you disagree.’ You’ve decided and left room to be corrected.",
+      "card4": "When decisions get endlessly delayed, the team loses time waiting for certainty that was never coming — and often, someone else has to step in and decide anyway, on a tighter deadline, with less information than you had.",
+      "founder": "A good decision made today usually beats a perfect decision made next week.",
+      "transition": "Sometimes the hardest decision isn’t what to do — it’s whether to say something your manager doesn’t want to hear."
+    },
+    {
+      "number": 19,
+      "behavior": "Respectful Disagreement",
+      "situation": "You disagree with your manager.",
+      "card1": "There will be a time when your manager decides something and you genuinely disagree. Your instinct might be to stay quiet and go along with it.\n\nDon’t just comply.\n\nSay what you actually think — respectfully.",
+      "card2": "Respectful disagreement means voicing a different view clearly, without making it personal, and without needing to win. Once you’ve said it and a decision is made, you commit to it fully — even if it’s not the one you argued for.",
+      "card3": "Your manager wants to launch a feature you think isn’t ready. Instead of staying quiet, you say: ‘I think launching now risks X — happy to be overruled, wanted to flag it before we go.’ They decide to launch anyway. You support the launch fully, because you said your piece.",
+      "card4": "When disagreement goes unspoken, bad decisions ship uncontested — and the person who saw the problem coming says ‘I knew this would happen’ afterward instead of before, when it could’ve actually helped.",
+      "founder": "I’d rather you tell me I’m wrong and be overruled than agree with me and be right in silence.",
+      "transition": "Disagreement is about decisions. Accountability is about what happens after one goes wrong."
+    },
+    {
+      "number": 20,
+      "behavior": "Accountability",
+      "situation": "You made a mistake.",
+      "card1": "There will be a time when you make a mistake — a real one, with real consequences — and nobody knows yet. Your instinct might be to quietly try to fix it before anyone finds out.\n\nDon’t hide it.\n\nOwn it.",
+      "card2": "Accountability means naming your own mistake before someone else finds it. It’s not about punishment — it’s about giving people the chance to help or adjust while there’s still time, instead of finding out later, from someone else.",
+      "card3": "You accidentally send a customer the wrong contract with the wrong pricing. Instead of hoping they don’t notice, you tell your manager immediately: ‘I sent the wrong version to [customer] — here’s what happened, here’s what I’m doing to fix it.’ It’s uncomfortable for ten minutes. It builds trust for a lot longer than that.",
+      "card4": "When mistakes get hidden, they don’t stay small. They surface later, at a worse time, discovered by someone else — and now the story isn’t just ‘a mistake happened,’ it’s ‘a mistake happened and you didn’t say anything.’ That second part is what actually costs trust.",
+      "founder": "I’ve never lost respect for someone who told me they messed up. I’ve lost respect for people who let me find out on my own.",
+      "transition": "Owning a mistake is one kind of maturity. Working well within real limits — money, time, people — is another."
+    },
+    {
+      "number": 21,
+      "behavior": "Resourcefulness",
+      "situation": "You're working with limited resources.",
+      "card1": "There will be a time when you don’t have what you’d ideally want — not enough budget, not enough people, not enough time. Your instinct might be to treat that as a reason to stop.\n\nDon’t wait for ideal conditions.\n\nWork with what’s actually there.",
+      "card2": "This kind of resourcefulness means making real progress inside real limits, instead of treating the limit as a full stop. It’s the difference between ‘we can’t do this properly’ and ‘here’s what we can do with what we’ve got.’",
+      "card3": "You’re asked to run a customer research project with no budget for incentives and one week instead of three. Instead of pushing back that it’s not enough, you cut the sample size, use existing customer relationships instead of paid recruiting, and deliver a smaller but real set of insights on time.",
+      "card4": "When constraints are treated as blockers, projects simply don’t happen — not because they were impossible, but because nobody tried the smaller, scrappier version that was actually achievable.",
+      "founder": "Startups rarely have enough of anything. The people who do well here are the ones who don’t wait for enough.",
+      "transition": "Working within limits solves today’s problem. But some problems keep coming back — and that’s a different kind of signal."
+    },
+    {
+      "number": 22,
+      "behavior": "Systems Thinking",
+      "situation": "You keep solving the same problem.",
+      "card1": "There will be a time when you realize you’ve fixed the exact same problem for the third time this month. Your instinct might be to just fix it again — it’s faster than stopping to think.\n\nDon’t just fix it again.\n\nAsk why it keeps happening.",
+      "card2": "Systems thinking means noticing patterns, not just incidents. It’s stepping back from the immediate fire to ask what keeps causing it — and fixing that, even if it takes longer than fixing the fire in front of you.",
+      "card3": "You’ve manually corrected the same data error in a report three weeks running. Instead of fixing it a fourth time, you trace it back to a broken formula upstream, fix that instead, and mention it in your update: ‘Fixed the root cause — this shouldn’t need manual correction again.’",
+      "card4": "When only symptoms get fixed, the same problem quietly eats time forever — a little bit each week, invisible in any single instance, enormous over a year. Nobody notices the cost because it never shows up as one big number.",
+      "founder": "If you’re fixing the same thing for the third time, you’re not actually fixing it. You’re renting time from the real problem.",
+      "transition": "Fixing the root cause matters internally. It matters even more when the problem is something a customer can actually feel."
+    },
+    {
+      "number": 23,
+      "behavior": "Customer Thinking",
+      "situation": "A customer is affected by your work.",
+      "card1": "There will be a time when a task you’re doing — a bug fix, a delay, a decision — actually affects a real customer on the other end. Your instinct might be to think about it purely as a task to close.\n\nDon’t lose sight of who it’s for.",
+      "card2": "Customer thinking means remembering there’s a real person affected by your work, even when the task itself feels internal and abstract. It changes how you prioritize, how fast you move, and how you explain a delay.",
+      "card3": "A bug means a small group of customers can’t export their data. Internally, it’s a low-priority ticket. But you know two of those customers are mid-way through a deadline of their own. Instead of leaving it in the general queue, you flag it: ‘This is blocking [customer]’s deadline this week — can we bump it up?’",
+      "card4": "When customer impact gets lost behind internal process, technically-correct prioritization quietly damages real relationships. The team feels like it’s operating fine — tickets closing, sprints on track — while a customer is having a genuinely bad week because of it.",
+      "founder": "Every ticket, bug, and delay has a person on the other end of it. Never let the internal process make you forget that.",
+      "transition": "Thinking about the customer matters. So does making sure the person waiting on you actually hears from you."
+    },
+    {
+      "number": 24,
+      "behavior": "Communication",
+      "situation": "Someone is waiting for information from you.",
+      "card1": "There will be a time when someone is genuinely stuck, waiting on information only you have. Your instinct might be to get to it when you get to it — you’re busy too.\n\nDon’t sit on it.\n\nYou’re the blocker right now.",
+      "card2": "Communication here means recognizing when you’re the thing standing between someone and their next step — and treating that with urgency, even if the ask itself feels small to you.",
+      "card3": "A teammate messages asking for a password to a shared account they need for a client call in twenty minutes. You’re mid-task and could easily let it sit for an hour. Instead, you send it in two minutes, because you recognize the twenty-minute window matters more than your current task order.",
+      "card4": "When people don’t recognize they’re the blocker, small requests turn into stalled work for someone else — a whole task, sometimes a whole team, paused because one small reply didn’t come fast enough.",
+      "founder": "The message that takes you thirty seconds to answer might be the thing standing between someone else and their entire day.",
+      "transition": "Responding quickly is half of communication. Being understood is the other half — and that’s its own skill."
+    },
+    {
+      "number": 25,
+      "behavior": "Clarity",
+      "situation": "You need to explain something clearly.",
+      "card1": "There will be a time when you need to explain something — a problem, an update, a plan — to someone who doesn’t have the context you do. Your instinct might be to explain it the way you understood it, in the order you figured it out.\n\nDon’t.\n\nLead with what they actually need to know.",
+      "card2": "Clarity means structuring what you say around the listener, not around your own thought process. It means leading with the headline, then the detail — not building up to the point after five minutes of context.",
+      "card3": "You spent all day untangling a data issue. Instead of walking your manager through the whole investigation in order, you lead with: ‘The dashboard numbers were wrong because of a broken filter — fixed now, here’s what caused it if you want the detail.’ They get what they need in one sentence, with more available if they want it.",
+      "card4": "When explanations aren’t structured for the listener, people either tune out halfway through or walk away with the wrong takeaway — and have to ask follow-up questions to get to the point that should’ve come first.",
+      "founder": "You did the hard work of figuring it out. Don’t make the other person do the hard work of following you through it. Just hand them the answer.",
+      "transition": "Twenty-five moments in, and here’s the thing — you’re not going to remember all of this perfectly on Monday morning. Nobody does. But something’s different now."
+    }
+  ],
+  "outro": {
+    "body": [
+      "Startup work isn’t a script. It’s a series of moments like the ones you just walked through — most of them small, none of them dramatic on their own, all of them adding up to what people mean when they call someone ‘good to work with.’",
+      "You won’t get all twenty-five right, every time. Nobody does — including the people who wrote this.",
+      "But you’ll recognize the moment when it shows up. You’ll know what the instinct is, and you’ll know what a more experienced version of you would do instead. That gap — between instinct and judgment — is basically the whole job.",
+      "You’re not finishing a training. You’re just starting the part where it actually counts."
+    ],
+    "closer": "Go do the thing."
+  }
+}
