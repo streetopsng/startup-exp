@@ -1,227 +1,31 @@
 import contentData from '../contentData.json';
 
-export const ATMO = {
-  welcome: {
-    bg: ['#241a3d', '#0b1020'],
-    particle: [196, 181, 253],
-    accentA: '#8B5CF6',
-    accentB: '#0090FF',
-    motion: 'wander',
-    polarity: 'swirl',
-    orderBias: 0.05,
-    pulse: 2.6,
-    blur: 20,
-    density: 1.00
-  },
-  confusion: {
-    bg: ['#1b1330', '#0b1020'],
-    particle: [167, 139, 250],
-    accentA: '#8B5CF6',
-    accentB: '#a78bfa',
-    motion: 'wander',
-    polarity: 'swirl',
-    orderBias: -0.30,
-    pulse: 1.9,
-    blur: 22,
-    density: 1.05
-  },
-  ambiguity: {
-    bg: ['#1a1330', '#0b1020'],
-    particle: [196, 181, 253],
-    accentA: '#8B5CF6',
-    accentB: '#0090FF',
-    motion: 'fog',
-    polarity: 'swirl',
-    orderBias: -0.20,
-    pulse: 2.2,
-    blur: 24,
-    density: 1.10
-  },
-  pressure: {
-    bg: ['#0c0e1c', '#05060c'],
-    particle: [91, 111, 168],
-    accentA: '#5b6fa8',
-    accentB: '#8B5CF6',
-    motion: 'sink',
-    polarity: 'repel',
-    orderBias: -0.10,
-    pulse: 1.1,
-    blur: 8,
-    density: 0.88
-  },
-  urgency: {
-    bg: ['#170b13', '#0b1020'],
-    particle: [255, 107, 107],
-    accentA: '#ff6b6b',
-    accentB: '#FFD000',
-    motion: 'streak',
-    polarity: 'repel',
-    orderBias: -0.05,
-    pulse: 0.5,
-    blur: 2,
-    density: 0.80
-  },
-  momentum: {
-    bg: ['#0b1730', '#0b1020'],
-    particle: [77, 184, 255],
-    accentA: '#0090FF',
-    accentB: '#8B5CF6',
-    motion: 'flow',
-    polarity: 'attractSoft',
-    orderBias: 0.05,
-    pulse: 1.3,
-    blur: 6,
-    density: 0.95
-  },
-  ownership: {
-    bg: ['#1c1330', '#0b1020'],
-    particle: [139, 92, 246],
-    accentA: '#8B5CF6',
-    accentB: '#4db8ff',
-    motion: 'orbit',
-    polarity: 'attractSoft',
-    orderBias: 0.15,
-    pulse: 2.0,
-    blur: 10,
-    density: 1.00
-  },
-  alignment: {
-    bg: ['#0b1830', '#0b1020'],
-    particle: [77, 184, 255],
-    accentA: '#0090FF',
-    accentB: '#8B5CF6',
-    motion: 'grid',
-    polarity: 'attract',
-    orderBias: 0.35,
-    pulse: 1.6,
-    blur: 6,
-    density: 1.00
-  },
-  recovery: {
-    bg: ['#241407', '#0b1020'],
-    particle: [255, 184, 77],
-    accentA: '#FFD000',
-    accentB: '#8B5CF6',
-    motion: 'reform',
-    polarity: 'attractSoft',
-    orderBias: 0.05,
-    pulse: 1.7,
-    blur: 14,
-    density: 1.00
-  },
-  confidence: {
-    bg: ['#1a1330', '#0b1020'],
-    particle: [255, 208, 0],
-    accentA: '#FFD000',
-    accentB: '#8B5CF6',
-    motion: 'orbit',
-    polarity: 'attract',
-    orderBias: 0.50,
-    pulse: 2.6,
-    blur: 4,
-    density: 1.08
-  },
-  clarity: {
-    bg: ['#0b1220', '#05070f'],
-    particle: [230, 240, 255],
-    accentA: '#0090FF',
-    accentB: '#FFD000',
-    motion: 'grid',
-    polarity: 'attract',
-    orderBias: 0.65,
-    pulse: 3.0,
-    blur: 0,
-    density: 1.15
-  },
-  resolved: {
-    bg: ['#241a06', '#1c1330'],
-    particle: [255, 208, 0],
-    accentA: '#FFD000',
-    accentB: '#8B5CF6',
-    motion: 'orbit',
-    polarity: 'attract',
-    orderBias: 0.80,
-    pulse: 3.2,
-    blur: 0,
-    density: 1.12
-  }
+/* =========================================================
+   PALETTE -- pastel accent per atmosphere key (reused from
+   the mood-mapping system, now driving color instead of motion)
+   ========================================================= */
+export const PALETTE = {
+  welcome: '#F6DE9E',
+  confusion: '#F3AE9D',
+  ambiguity: '#D9CBF5',
+  pressure: '#E5E3DC',
+  urgency: '#F3AE9D',
+  momentum: '#BBDDF5',
+  ownership: '#D9CBF5',
+  alignment: '#BBDDF5',
+  recovery: '#F6DE9E',
+  confidence: '#F6DE9E',
+  clarity: '#9FD6C7',
+  resolved: '#F6DE9E'
 };
 
 export const MOMENT_ATMO = {
-  1: 'confusion',
-  2: 'ambiguity',
-  3: 'momentum',
-  4: 'momentum',
-  5: 'momentum',
-  6: 'ownership',
-  7: 'pressure',
-  8: 'clarity',
-  9: 'pressure',
-  10: 'urgency',
-  11: 'pressure',
-  12: 'alignment',
-  13: 'alignment',
-  14: 'clarity',
-  15: 'alignment',
-  16: 'momentum',
-  17: 'ambiguity',
-  18: 'confidence',
-  19: 'alignment',
-  20: 'recovery',
-  21: 'momentum',
-  22: 'clarity',
-  23: 'ownership',
-  24: 'alignment',
-  25: 'confidence'
+  1: 'confusion', 2: 'ambiguity', 3: 'momentum', 4: 'momentum', 5: 'momentum',
+  6: 'ownership', 7: 'pressure', 8: 'clarity', 9: 'pressure', 10: 'urgency',
+  11: 'pressure', 12: 'alignment', 13: 'alignment', 14: 'clarity', 15: 'alignment',
+  16: 'momentum', 17: 'ambiguity', 18: 'confidence', 19: 'alignment', 20: 'recovery',
+  21: 'momentum', 22: 'clarity', 23: 'ownership', 24: 'alignment', 25: 'confidence'
 };
-
-export const PRACTICE_OVERLAY = {
-  1: 'signal',
-  2: 'loop',
-  3: 'paths',
-  4: 'paths',
-  5: 'signal',
-  6: 'none',
-  7: 'signal',
-  8: 'loop',
-  9: 'paths',
-  10: 'paths',
-  11: 'signal',
-  12: 'signal',
-  13: 'signal',
-  14: 'signal',
-  15: 'signal',
-  16: 'loop',
-  17: 'loop',
-  18: 'paths',
-  19: 'signal',
-  20: 'none',
-  21: 'paths',
-  22: 'loop',
-  23: 'signal',
-  24: 'signal',
-  25: 'paths'
-};
-
-export const CONSEQUENCE_REACTION = {
-  7: 'freeze',
-  8: 'stabilize',
-  9: 'noise',
-  10: 'break',
-  11: 'freeze',
-  13: 'break',
-  20: 'stabilize',
-  24: 'break',
-  25: 'stabilize'
-};
-
-export function reactionFor(n) {
-  return CONSEQUENCE_REACTION[n] || 'dim';
-}
-
-export function layoutFor(n) {
-  return ['layout-center', 'layout-left', 'layout-wide'][(n - 1) % 3];
-}
 
 export const STARTUP_TRUTHS = [
   {
@@ -327,9 +131,9 @@ export const THINGS_HEARD = [
 ];
 
 export const INSERT_AFTER_MOMENT = {
-  5: [{ kind: 'truth', data: STARTUP_TRUTHS[0] }],
-  8: [{ kind: 'translation', data: FOUNDER_TRANSLATIONS[0] }],
-  9: [{ kind: 'heard', data: THINGS_HEARD[0] }],
+  5:  [{ kind: 'truth', data: STARTUP_TRUTHS[0] }],
+  8:  [{ kind: 'translation', data: FOUNDER_TRANSLATIONS[0] }],
+  9:  [{ kind: 'heard', data: THINGS_HEARD[0] }],
   10: [{ kind: 'myth', data: MYTH_REALITY[0] }],
   13: [{ kind: 'translation', data: FOUNDER_TRANSLATIONS[1] }],
   16: [{ kind: 'truth', data: STARTUP_TRUTHS[1] }],
@@ -355,60 +159,82 @@ export const AFTERMATH_LINES = [
 ];
 
 export const FIELD_GUIDE = [
-  { prefix: "When you don't know →", action: "Ask." },
-  { prefix: "When there's no answer →", action: "Explore." },
-  { prefix: "When nobody tells you →", action: "Look around." },
-  { prefix: "When something's wrong →", action: "Say something." },
-  { prefix: "When you promise →", action: "Follow through." },
-  { prefix: "When you're behind →", action: "Give an update." },
-  { prefix: "When you finish →", action: "Close the loop." },
-  { prefix: "When everything feels urgent →", action: "Think first." },
-  { prefix: "When people depend on you →", action: "Keep them informed." },
-  { prefix: "When things change →", action: "Adjust." },
-  { prefix: "When you make a mistake →", action: "Own it." },
-  { prefix: "When you're stuck →", action: "Ask for help." }
+  "When you don't know → <b>Ask.</b>",
+  "When there's no answer → <b>Explore.</b>",
+  "When nobody tells you → <b>Look around.</b>",
+  "When something's wrong → <b>Say something.</b>",
+  "When you promise → <b>Follow through.</b>",
+  "When you're behind → <b>Give an update.</b>",
+  "When you finish → <b>Close the loop.</b>",
+  "When everything feels urgent → <b>Think first.</b>",
+  "When people depend on you → <b>Keep them informed.</b>",
+  "When things change → <b>Adjust.</b>",
+  "When you make a mistake → <b>Own it.</b>",
+  "When you're stuck → <b>Ask for help.</b>"
 ];
 
-function breakScreenFor(ins) {
+export const DOODLE_ICONS = [
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.4 8.4 0 0 1-8.9 8.4 8.6 8.6 0 0 1-3.9-.9L3 21l1.9-5.3a8.4 8.4 0 0 1-1-4A8.4 8.4 0 0 1 12.5 3a8.4 8.4 0 0 1 8.5 8.5z"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.4 1 2.5h6c0-1.1.4-1.9 1-2.5A6 6 0 0 0 12 3z"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 2 19h20L12 2zM12 9v5M12 17h.01"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 8v4l3 3M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20z"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 6 9 17l-5-5"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 3v18h18M7 15l3-4 4 3 5-7"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 12l4-2M8 7l1-4M6 18l-2 3"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>',
+  '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M17 8V5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v3M3 8h18l-1.5 12.5a1 1 0 0 1-1 .5H5.5a1 1 0 0 1-1-.5L3 8z"/></svg>'
+];
+
+export function breakScreenFor(ins) {
   if (ins.kind === 'truth') return { type: 'truth', atmo: ins.data.atmo, lines: ins.data.lines };
   if (ins.kind === 'translation') return { type: 'translation', atmo: ins.data.atmo, phrase: ins.data.phrase, body: ins.data.body };
   if (ins.kind === 'myth') return { type: 'myth', atmo: ins.data.atmo, myth: ins.data.myth, reality: ins.data.reality };
   if (ins.kind === 'heard') return { type: 'heard', atmo: ins.data.atmo, phrase: ins.data.phrase, meaning: ins.data.meaning };
-  if (ins.kind === 'reflect-pause') return { type: 'reflect-pause', atmo: 'recovery', focus: true };
+  if (ins.kind === 'reflect-pause') return { type: 'reflect-pause', atmo: 'recovery' };
+  return null;
 }
 
 export function buildScreensSequence() {
   const { homepage, intro, moments } = contentData;
-  const list = [];
+  const screens = [];
 
-  list.push({ type: 'homepage', data: homepage });
+  screens.push({ type: 'homepage', homepage });
 
   intro.body.forEach((line, i) => {
-    list.push({ type: 'intro-line', text: line, isFirst: i === 0 });
+    screens.push({ type: 'intro-line', text: line, isFirst: i === 0 });
   });
 
-  list.push({ type: 'intro-transition', text: intro.transitionToMoment1 });
+  screens.push({ type: 'intro-transition', text: intro.transitionToMoment1 });
 
   moments.forEach((m) => {
-    (INSERT_BEFORE_MOMENT[m.number] || []).forEach(ins => list.push(breakScreenFor(ins)));
-    list.push({ type: 'situation', m });
-    list.push({ type: 'definition', m });
-    list.push({ type: 'practice', m });
-    list.push({ type: 'consequence', m });
-    (INSERT_AFTER_MOMENT[m.number] || []).forEach(ins => list.push(breakScreenFor(ins)));
+    (INSERT_BEFORE_MOMENT[m.number] || []).forEach(ins => {
+      const b = breakScreenFor(ins);
+      if (b) screens.push(b);
+    });
+
+    screens.push({ type: 'moment', m });
+
+    (INSERT_AFTER_MOMENT[m.number] || []).forEach(ins => {
+      const b = breakScreenFor(ins);
+      if (b) screens.push(b);
+    });
   });
 
-  AFTERMATH_LINES.forEach(l => list.push({ type: 'aftermath-line', text: l.text, size: l.size }));
-  list.push({ type: 'fieldguide' });
-  list.push({ type: 'ending' });
+  AFTERMATH_LINES.forEach(l => {
+    screens.push({ type: 'aftermath-line', text: l.text, size: l.size });
+  });
 
-  return list;
+  screens.push({ type: 'fieldguide' });
+  screens.push({ type: 'ending' });
+
+  return screens;
 }
 
 export function findClosingQuote(text, from) {
   let i = from;
   while (true) {
-    i = text.indexOf('\u2019', i);
+    i = text.indexOf('’', i);
     if (i === -1) return -1;
     const nextChar = text[i + 1];
     if (!nextChar || !/[a-zA-Z]/.test(nextChar)) return i;
@@ -417,9 +243,10 @@ export function findClosingQuote(text, from) {
 }
 
 export function extractQuote(text) {
-  let searchFrom = 0, lastMatch = null;
+  let searchFrom = 0;
+  let lastMatch = null;
   while (true) {
-    const colonQuoteIdx = text.indexOf(': \u2018', searchFrom);
+    const colonQuoteIdx = text.indexOf(': ‘', searchFrom);
     if (colonQuoteIdx === -1) break;
     const openQ = colonQuoteIdx + 2;
     const closeQ = findClosingQuote(text, openQ + 1);
@@ -427,7 +254,8 @@ export function extractQuote(text) {
     searchFrom = colonQuoteIdx + 1;
   }
   if (lastMatch) return lastMatch;
-  const openQ = text.indexOf('\u2018');
+
+  const openQ = text.indexOf('‘');
   if (openQ === -1) return null;
   const closeQ = findClosingQuote(text, openQ + 1);
   if (closeQ === -1) return null;
